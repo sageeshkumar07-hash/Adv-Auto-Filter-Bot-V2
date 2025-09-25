@@ -495,3 +495,4 @@ class Database(metaclass=Singleton):
         return await self.fcol.count_documents({"group_id": group_id})
 
     
+
